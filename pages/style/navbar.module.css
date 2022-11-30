@@ -1,0 +1,33 @@
+.nav {
+    display:flex;
+    font-size:16px;
+    padding-left:5%;
+    line-height:50px;
+  
+    height:10%;
+    }
+    .nav p {
+        font-weight:100px;
+    }
+    .nav ul {
+        display:flex;
+        list-style:none;
+        padding-left:10%;
+        color:rgb(40,40,47)
+    }
+    .nav li {
+        padding:0 10%;
+    }
+    .nav li:hover {
+        color: rgb(40,40,47);
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(12, 161, 37);
+        transition: all ease-in 0.25s;
+        cursor: pointer;
+    }
+    .nav a:hover {
+        color: rgb(5, 224, 42);
+    }
+    
