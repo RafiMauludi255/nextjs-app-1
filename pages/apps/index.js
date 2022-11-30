@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../component/navbar";
 import style from "../style/home.module.css"
+import img from "../img/img.svg"
 
 export default function Page() {
     return (
@@ -12,7 +13,7 @@ export default function Page() {
 
             <Navbar />
             <main className={style.main}>
-                <img src="/img.svg" className={style.image}/>
+                <img src={img} className={style.image}/>
                 <h1>Search favorite Food, <br />Delivery Faster</h1>
                 <p>buy your favorite food,drink and dessert. We ready for your delivery. Thanks for visited.</p>
                 <a href="/apps/foods"><button className={style.router}>Search Foods</button></a>
